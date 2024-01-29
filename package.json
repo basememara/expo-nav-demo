@@ -2,7 +2,7 @@
   "name": "expo-nav-demo",
   "version": "1.0.0",
   "private": true,
-  "main": "src/main.tsx",
+  "main": "src/App.tsx",
   "scripts": {
     "start": "expo start -c",
     "android": "expo start --android",

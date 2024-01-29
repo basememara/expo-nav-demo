@@ -4,17 +4,17 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useLayoutEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export const Settings = ({ navigation }: NativeStackScreenProps<ParamListBase>) => {
+export const Products = ({ navigation }: NativeStackScreenProps<ParamListBase>) => {
   useLayoutEffect(() => {
     navigation.setOptions({
-      headerShown: false
+      headerTitle: 'Products'
     });
   }, [navigation]);
 
   return (
     <StackScrollView>
       <View style={styles.container}>
-        <Text>Settings</Text>
+        <Text>Products</Text>
       </View>
     </StackScrollView>
   );

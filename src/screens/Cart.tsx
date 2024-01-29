@@ -1,20 +1,13 @@
 import StackScrollView from '@/components/StackScrollView';
 import { ParamListBase } from '@react-navigation/native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { useLayoutEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export const Settings = ({ navigation }: NativeStackScreenProps<ParamListBase>) => {
-  useLayoutEffect(() => {
-    navigation.setOptions({
-      headerShown: false
-    });
-  }, [navigation]);
-
+export const Cart = ({ navigation }: NativeStackScreenProps<ParamListBase>) => {
   return (
     <StackScrollView>
       <View style={styles.container}>
-        <Text>Settings</Text>
+        <Text>Cart</Text>
       </View>
     </StackScrollView>
   );
