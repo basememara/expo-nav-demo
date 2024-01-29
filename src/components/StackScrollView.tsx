@@ -1,5 +1,5 @@
 import { useScrollToTop } from '@react-navigation/native';
-import React, { ReactNode, useRef } from 'react';
+import { ReactNode, useRef } from 'react';
 import { ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
